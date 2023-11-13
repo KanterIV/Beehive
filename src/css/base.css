@@ -6,3 +6,51 @@ body {
 
 .container {
 } */
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: local('NotoSans-Regular'), local('NotoSans Regular'),
+    url(../fonts/NotoSans-Regular.ttf) format('truetype'),
+    url(../fonts/NotoSans-Regular.woff) format('woff'),
+    url(../fonts/NotoSans-Regular.woff2) format('woff2'),
+    url(../fonts/NotoSans-Regular.svg) format('svg');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: local('NotoSans-Medium'), local('NotoSans Medium'),
+    url(../fonts/NotoSans-Medium.ttf) format('truetype'),
+    url(../fonts/NotoSans-Medium.woff) format('woff'),
+    url(../fonts/NotoSans-Medium.woff2) format('woff2'),
+    url(../fonts/NotoSans-Medium.svg) format('svg');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: local('NotoSans-SemiBold'), local('NotoSans SemiBold'),
+    url(../fonts/NotoSans-SemiBold.ttf) format('truetype'),
+    url(../fonts/NotoSans-SemiBold.woff) format('woff'),
+    url(../fonts/NotoSans-SemiBold.woff2) format('woff2'),
+    url(../fonts/NotoSans-SemiBold.svg) format('svg');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: local('CenturyGothic-Bold'), local('CenturyGothic Bold'),
+    url(../fonts/CenturyGothic-Bold.ttf) format('truetype'),
+    url(../fonts/CenturyGothic-Bold.woff) format('woff'),
+    url(../fonts/CenturyGothic-Bold.woff2) format('woff2'),
+    url(../fonts/CenturyGothic-Bold.svg) format('svg');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
