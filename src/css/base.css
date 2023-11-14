@@ -1,11 +1,35 @@
-/* :root {
+:root {
+  --color-gray-80: #33455a;
+  --color-gray-60: #65778c;
+  --color-gray-40: #a0a9b1;
+  --color-gray-20: #e1e3e5;
+  --color-gray-10: #f4f6f8;
+  --color-brand-black: #001834;
+  --color-brand-blue: #0075ff;
+  --color-brand-orange: #ff8a00;
+  --color-brand-white: #ffffff;
+  --color-other-dark-blue: #006bf5;
+  --color-other-icon: #c2a179;
+  --color-other-background: #fffaf4;
+  --color-expanded-success: #23d35e;
+  --color-expanded-info: #23a9d3;
+  --color-expanded-warning: #eeaa44;
+  --color-expanded-error: #ee4444;
+
+  --main-text-font: 'Noto Sans', sans-serif;
 }
 
 body {
+  color: var(--color-brand-black);
+  background-color: var(--color-brand-white);
+  font-family: var(--main-text-font);
 }
 
 .container {
-} */
+  width: 1470px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 @font-face {
   font-family: 'Noto Sans';
