@@ -1,0 +1,29 @@
+.stats-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: var(--color-brand-black);
+}
+
+.stats-list {
+  display: flex;
+  gap: 40px;
+}
+
+.stats-item {
+  width: calc((100%-200px) / 6);
+  text-align: center;
+}
+
+.stats-quantities {
+  margin-bottom: 8px;
+  font-family: 'Century Gothic';
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.33;
+  color: var(--color-brand-orange);
+}
+
+.stats-text {
+  line-height: 1.5;
+  color: var(--color-brand-white);
+}
