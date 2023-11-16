@@ -137,10 +137,10 @@ section {
 }
 .button {
   display: block;
-  width: 454px;
+  min-width: 454px;
   height: 64px;
   margin: 0 auto;
-  padding: 18px 177px;
+  /* padding: 18px 177px; */
   border: none;
   border-radius: 8px;
   /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
