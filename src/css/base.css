@@ -119,6 +119,14 @@ section {
   line-height: 1.33;
 }
 
+.subtitle-medium {
+  margin-bottom: 16px;
+  text-align: center;
+  font-family: var(--secondary-text-font);
+  font-size: 24px;
+  line-height: 1.5;
+}
+
 .subtitle-blue {
   font-size: 16px;
   font-weight: 600;
@@ -140,7 +148,6 @@ section {
   min-width: 454px;
   height: 64px;
   margin: 0 auto;
-  /* padding: 18px 177px; */
   border: none;
   border-radius: 8px;
   /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
