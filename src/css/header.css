@@ -21,7 +21,7 @@
 }
 
 .header-logo-text {
-  font-family: Century Gothic;
+  font-family: var(--secondary-text-font);
   font-size: 29px;
   font-weight: 700;
   line-height: normal;
