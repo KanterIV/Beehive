@@ -1,0 +1,26 @@
+.media-title {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.media-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 138px;
+}
+
+.media-link {
+  color: var(--color-gray-60);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.media-link:hover,
+.media-link:focus {
+  color: var(--color-brand-black);
+}
+
+.media-icon {
+  fill: currentColor;
+}
