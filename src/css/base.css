@@ -114,6 +114,12 @@ section {
 }
 
 .subtitle {
+  font-family: var(--secondary-text-font);
+  font-size: 48px;
+  line-height: 1.33;
+}
+
+.subtitle-blue {
   font-size: 16px;
   font-weight: 600;
   line-height: 1.5;
@@ -121,6 +127,14 @@ section {
   color: var(--color-brand-blue);
 }
 
+.text-main {
+  font-size: 18px;
+  line-height: 1.55;
+
+  color: var(--color-gray-80);
+}
+.text-secondary {
+}
 .button {
   display: block;
   width: 454px;
