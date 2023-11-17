@@ -7,24 +7,8 @@
   margin-right: auto;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-}
-
 .header-logo {
   margin-right: 348px;
-}
-
-.header-logo-icon {
-  margin-right: 13px;
-}
-
-.header-logo-text {
-  font-family: var(--secondary-text-font);
-  font-size: 29px;
-  font-weight: 700;
-  line-height: normal;
 }
 
 .header-nav-list {

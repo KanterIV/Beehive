@@ -113,6 +113,22 @@ section {
   overflow: hidden;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-family: var(--secondary-text-font);
+  font-size: 29px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.logo-icon {
+  margin-right: 13px;
+}
+
 .subtitle {
   font-family: var(--secondary-text-font);
   font-size: 48px;
@@ -141,8 +157,7 @@ section {
 
   color: var(--color-gray-80);
 }
-.text-secondary {
-}
+
 .button {
   display: block;
   min-width: 454px;
