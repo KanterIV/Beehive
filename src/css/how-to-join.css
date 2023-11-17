@@ -1,0 +1,61 @@
+.guide-section {
+  padding-top: 180px;
+  padding-bottom: 620px;
+}
+
+.guide-subtitle {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.guide-title {
+  text-align: center;
+  margin-bottom: 139px;
+}
+
+.guide-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  position: relative;
+}
+
+.guide-item {
+  width: calc((100% - 40px) / 3);
+  padding: 128px 45px 149px 45px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 1px solid black; */
+}
+
+.guide-item:nth-child(-n + 3) {
+  background-image: url(../images/join/honeycomb.svg);
+}
+
+.guide-item:nth-child(4) {
+  position: absolute;
+  left: 245px;
+  top: 425px;
+  background-image: url(../images/join/orangecomb.svg);
+}
+.guide-item:nth-child(5) {
+  right: 245px;
+  top: 425px;
+  position: absolute;
+  background-image: url(../images/join/bluecomb.svg);
+}
+
+.guide-icon {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.guide-item-text {
+  text-align: center;
+  line-height: 1.5;
+  color: var(--color-gray-60);
+}
