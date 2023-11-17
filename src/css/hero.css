@@ -1,6 +1,12 @@
 .hero-section {
+  position: relative;
   padding-top: 120px;
   padding-bottom: 80px;
+}
+
+.hero-container {
+  position: relative;
+  z-index: var(--main-index);
 }
 
 .hero-subtitle {
@@ -31,4 +37,14 @@
   line-height: 1.55;
 
   color: var(--color-gray-80);
+}
+
+.hero-bg-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.7;
+  transform: translateX(12%) translateY(20%);
+  z-index: var(--secondary-index);
+  fill: antiquewhite;
 }

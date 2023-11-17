@@ -1,3 +1,11 @@
+.partners-section {
+  position: relative;
+}
+.partners-container {
+  position: relative;
+  z-index: var(--main-index);
+}
+
 .partner-title {
   margin-bottom: 40px;
   text-align: center;
@@ -25,4 +33,14 @@
 
 .partners-icon {
   fill: currentColor;
+}
+
+.partners-bg-icon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.7;
+  transform: scale(-1, 1) translateX(12%);
+  z-index: var(--secondary-index);
+  fill: antiquewhite;
 }
