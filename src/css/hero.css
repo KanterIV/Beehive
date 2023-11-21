@@ -6,9 +6,13 @@
 
 @media screen and (min-width: 768px) {
   .hero-section {
-    /* position: relative; */
+    padding-top: 80px;
+  }
+}
+
+@media screen and (min-width: 1470px) {
+  .hero-section {
     padding-top: 120px;
-    /* padding-bottom: 80px; */
   }
 }
 
@@ -35,6 +39,12 @@
 
 @media screen and (min-width: 768px) {
   .hero-title {
+    font-size: 54px;
+  }
+}
+
+@media screen and (min-width: 1470px) {
+  .hero-title {
     font-size: 72px;
   }
 }
@@ -55,6 +65,11 @@
   .hero-description {
     margin-bottom: 60px;
     padding: 0 34px 0 34px;
+  }
+}
+
+@media screen and (min-width: 1470px) {
+  .hero-description {
     font-size: 18px;
   }
 }
