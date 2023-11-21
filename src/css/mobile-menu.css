@@ -64,5 +64,5 @@
 
 .mobile-icon-left {
   top: 0;
-  transform: scale(-1, 1) translateX(10%) translateY(210%);
+  transform: scale(-1, 1) translateY(210%);
 }

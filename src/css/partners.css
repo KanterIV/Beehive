@@ -7,24 +7,94 @@
 }
 
 .partner-title {
-  margin-bottom: 40px;
+  margin-bottom: 24px;
   text-align: center;
   font-family: var(--secondary-text-font);
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.5;
 }
 
-.partners-list {
+@media screen and (min-width: 768px) {
+  .partner-title {
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
+}
+
+/* .partners-list {
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 103px;
+  row-gap: 50px;
+  column-gap: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .partners-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 103px;
+  }
+} */
+
+/* ------------------------------- */
+.partners-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 34px;
+  column-gap: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .partners-list {
+    row-gap: 50px;
+    column-gap: 36px;
+  }
+}
+
+@media screen and (min-width: 1470px) {
+  .partners-list {
+    gap: 103px;
+  }
+}
+
+.partners-item {
+  display: flex;
+  width: calc((100% - 16px) / 2);
+  height: 64px;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .partners-item {
+    width: calc((100% - 72px) / 3);
+  }
+}
+
+@media screen and (min-width: 1470px) {
+  .partners-item {
+    width: calc((100% - 412px) / 5);
+  }
 }
 
 .partners-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
   color: var(--color-gray-60);
+
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+/* ------------------------------------- */
+
+/* .partners-link {
+  color: var(--color-gray-60);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
 
 .partners-link:hover,
 .partners-link:focus {
@@ -35,6 +105,12 @@
   fill: currentColor;
 }
 
+@media screen and (max-width: 767px) {
+  .partners-icon {
+    width: 120px;
+  }
+}
+
 .partners-bg-icon {
   position: absolute;
   bottom: 0;
@@ -43,4 +119,18 @@
   transform: scale(-1, 1) translateX(12%);
   z-index: var(--secondary-index);
   fill: var(--color-brand-orange);
+}
+
+@media screen and (max-width: 767px) {
+  .partners-bg-icon {
+    width: 150px;
+    height: 174px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1469px) {
+  .partners-bg-icon {
+    width: 200px;
+    height: 274px;
+  }
 }
