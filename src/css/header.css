@@ -1,7 +1,7 @@
 @media screen and (max-width: 767px) {
   .page-header {
     position: relative;
-    z-index: var(--main-index);
+    z-index: var(--header-index);
   }
 }
 
