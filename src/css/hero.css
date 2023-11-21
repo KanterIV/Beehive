@@ -43,8 +43,8 @@
   position: absolute;
   top: 0;
   right: 0;
-  opacity: 0.7;
+  opacity: 0.1;
   transform: translateX(12%) translateY(20%);
   z-index: var(--secondary-index);
-  fill: antiquewhite;
+  fill: var(--color-brand-orange);
 }
