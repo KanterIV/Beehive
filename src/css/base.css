@@ -196,8 +196,14 @@ section {
 
 .subtitle {
   font-family: var(--secondary-text-font);
-  font-size: 48px;
+  font-size: 28px;
   line-height: 1.33;
+}
+
+@media screen and (min-width: 1470px) {
+  .subtitle {
+    font-size: 48px;
+  }
 }
 
 .subtitle-medium {
