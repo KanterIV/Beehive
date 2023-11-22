@@ -66,8 +66,6 @@
 }
 
 .about-first-icon {
-  width: 180px;
-  height: 180px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -140,39 +138,3 @@
     flex-flow: row-reverse;
   }
 }
-/* ================OLD VErSioN============== */
-/* .about-list {
-  display: flex;
-  flex-direction: column;
-  gap: 160px;
-}
-
-.about-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.reverse-content {
-  flex-flow: row-reverse;
-}
-
-.about-img-wrapper {
-  position: relative;
-  width: 577px;
-  height: 512px;
-}
-.about-first-icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-}
-
-.about-description-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-
-  max-width: 700px;
-} */
