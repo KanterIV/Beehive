@@ -106,18 +106,11 @@
 
 .about-subtitle {
   text-align: center;
-  font-size: 28px;
 }
 
 @media screen and (min-width: 768px) {
   .about-subtitle {
     text-align: left;
-  }
-}
-
-@media screen and (min-width: 1470px) {
-  .about-subtitle {
-    font-size: 48px;
   }
 }
 
