@@ -1,7 +1,19 @@
 .factors-section {
-  background-color: var(--color-brand-black);
-  padding-top: 160px;
   position: relative;
+  background-color: var(--color-brand-black);
+  padding-top: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .factors-section {
+    padding-top: 120px;
+  }
+}
+
+@media screen and (min-width: 1470px) {
+  .factors-section {
+    padding-top: 120px;
+  }
 }
 
 .factors-container {
@@ -10,30 +22,74 @@
 }
 
 .factors-subtitle {
-  margin-bottom: 24px;
+  margin-bottom: 12px;
   text-align: center;
   color: var(--color-brand-orange);
 }
 
+@media screen and (min-width: 1470px) {
+  .factors-subtitle {
+    margin-bottom: 24px;
+  }
+}
+
 .factors-title {
-  width: 1194px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   text-align: center;
   color: var(--color-brand-white);
 }
 
+@media screen and (min-width: 1470px) {
+  .factors-title {
+    width: 1194px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 1470px) {
+  .factors-title {
+    margin-bottom: 80px;
+  }
+}
+
 .factors-list {
   display: flex;
-  gap: 40px;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .factors-list {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1470px) {
+  .factors-list {
+    gap: 40px;
+  }
 }
 
 .factors-item {
-  width: calc((100% - 80px) / 3);
-  padding: 60px 40px 40px 40px;
+  width: 100%;
+  padding: 40px 30px 30px 30px;
   border-radius: 16px;
   background-color: #001d3f;
+}
+
+@media screen and (min-width: 768px) {
+  .factors-item {
+    width: calc((100% - 50px) / 2);
+  }
+}
+
+@media screen and (min-width: 1470px) {
+  .factors-item {
+    width: calc((100% - 80px) / 3);
+    padding: 60px 40px 60px 40px;
+  }
 }
 
 .factors-icon {
@@ -42,15 +98,31 @@
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 1469px) {
+  .factors-icon {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 30px;
+  }
+}
+
 .factors-item-title {
   color: var(--color-brand-white);
 }
 
 .factors-item-text {
-  width: 373px;
+  font-size: 14px;
   text-align: center;
   line-height: 1.5;
   color: var(--color-brand-white);
+}
+
+@media screen and (min-width: 1470px) {
+  .factors-item-text {
+    width: 344px;
+    margin: 0 auto;
+    font-size: 16px;
+  }
 }
 
 .factors-bg-icon-right {
@@ -71,4 +143,12 @@
   transform: scale(-1, 1) translateY(-43%);
   z-index: var(--secondary-index);
   fill: var(--color-brand-blue);
+}
+
+@media screen and (max-width: 767px) {
+  .factors-bg-icon-right,
+  .factors-bg-icon-left {
+    width: 90px;
+    height: 120px;
+  }
 }
