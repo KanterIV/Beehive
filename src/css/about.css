@@ -120,12 +120,6 @@
   }
 }
 
-@media screen and (max-width: 1469px) {
-  .about-text {
-    font-size: 16px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .reverse-content {
     flex-flow: row-reverse;

@@ -223,10 +223,16 @@ section {
 }
 
 .text-main {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.55;
 
   color: var(--color-gray-80);
+}
+
+@media screen and (min-width: 1470px) {
+  .text-main {
+    font-size: 18px;
+  }
 }
 
 .button {
