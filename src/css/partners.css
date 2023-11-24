@@ -1,5 +1,6 @@
 .partners-section {
   position: relative;
+  background-color: var(--color-other-background);
 }
 .partners-container {
   position: relative;
