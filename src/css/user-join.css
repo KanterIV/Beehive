@@ -83,9 +83,24 @@
   z-index: var(--secondary-index);
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .join-bg-icon-left,
   .join-bg-icon-rigth {
+    width: 200px;
+    height: 300px;
+  }
+} */
+@media screen and (max-width: 767px) {
+  .join-bg-icon-left {
+    transform: translateY(40%);
+    width: 200px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .join-bg-icon-rigth {
+    transform: translateY(-15%);
     width: 200px;
     height: 300px;
   }
