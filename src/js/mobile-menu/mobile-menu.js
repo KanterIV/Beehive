@@ -18,6 +18,12 @@ const toggleMenu = () => {
   // } else {
   //   enableBodyScroll(mobileMenu);
   // }
+
+  if (!isMenuOpen) {
+    document.body.style.overflow = 'hidden';
+  } else {
+    document.body.style.overflow = 'auto';
+  }
 };
 
 openMenuBtn.addEventListener('click', toggleMenu);
