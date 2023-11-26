@@ -1,7 +1,4 @@
-import bodyScrollLock, {
-  enableBodyScroll,
-  disableBodyScroll,
-} from 'body-scroll-lock';
+import { enableBodyScroll, disableBodyScroll } from 'body-scroll-lock';
 
 const mobileMenu = document.querySelector('.js-menu-container');
 const openMenuBtn = document.querySelector('.js-open-menu');
@@ -17,9 +14,9 @@ const toggleMenu = () => {
   mobileMenu.classList.toggle('is-open');
 
   if (!isMenuOpen) {
-    enableBodyScroll(document.body);
-  } else {
     disableBodyScroll(document.body);
+  } else {
+    enableBodyScroll(document.body);
   }
 };
 
