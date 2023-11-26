@@ -13,11 +13,11 @@ const toggleMenu = () => {
   openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
   mobileMenu.classList.toggle('is-open');
 
-  if (!isMenuOpen) {
-    disableBodyScroll(mobileMenu);
-  } else {
-    enableBodyScroll(mobileMenu);
-  }
+  // if (!isMenuOpen) {
+  //   disableBodyScroll(mobileMenu);
+  // } else {
+  //   enableBodyScroll(mobileMenu);
+  // }
 };
 
 openMenuBtn.addEventListener('click', toggleMenu);
