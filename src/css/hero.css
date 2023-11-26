@@ -80,7 +80,7 @@
   top: 0;
   right: 0;
   opacity: 0.1;
-  transform: translateX(12%) translateY(20%);
+  transform: translateY(20%);
   z-index: var(--secondary-index);
   fill: var(--color-brand-orange);
 }
