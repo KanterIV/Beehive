@@ -14,9 +14,9 @@ const toggleMenu = () => {
   mobileMenu.classList.toggle('is-open');
 
   if (!isMenuOpen) {
-    disableBodyScroll(document.body);
+    disableBodyScroll(mobileMenu);
   } else {
-    enableBodyScroll(document.body);
+    enableBodyScroll(mobileMenu);
   }
 };
 
