@@ -2,6 +2,7 @@
   padding-top: 80px;
   padding-bottom: 80px;
   background-color: var(--color-brand-black);
+  position: relative;
 }
 
 @media screen and (min-width: 768px) {
@@ -16,6 +17,11 @@
     padding-top: 120px;
     padding-bottom: 120px;
   }
+}
+
+.stats-container {
+  position: relative;
+  z-index: var(--main-index);
 }
 
 .stats-list {
@@ -86,5 +92,38 @@
 @media screen and (min-width: 768px) {
   .stats-text {
     font-size: 16px;
+  }
+}
+
+.stats-bg-img-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: var(--secondary-index);
+
+  width: 50%;
+}
+
+.stats-bg-img-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: scale(-1, -1);
+  z-index: var(--secondary-index);
+
+  width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .stats-bg-img-left,
+  .stats-bg-img-right {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1470px) {
+  .stats-bg-img-left,
+  .stats-bg-img-right {
+    width: auto;
   }
 }
