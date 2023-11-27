@@ -1,8 +1,11 @@
+.page-header {
+  background-color: var(--color-other-background);
+}
+
 @media screen and (max-width: 767px) {
   .page-header {
     position: relative;
     z-index: var(--header-index);
-    background-color: var(--color-other-background);
   }
 }
 
