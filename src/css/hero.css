@@ -23,7 +23,14 @@
 }
 
 .hero-subtitle {
+  margin-bottom: 12px;
   text-align: center;
+}
+
+@media screen and (min-width: 1470px) {
+  .hero-subtitle {
+    margin-bottom: 36px;
+  }
 }
 
 .hero-title {
