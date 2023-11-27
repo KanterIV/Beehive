@@ -62,12 +62,12 @@
 
 @media screen and (max-width: 767px) {
   .buttonup-case {
-    width: 42px;
-    height: 42px;
+    width: 52px;
+    height: 52px;
   }
 
   .buttonup.anima-up {
-    width: 32;
-    height: 32;
+    width: 42;
+    height: 42;
   }
 }
