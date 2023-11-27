@@ -22,6 +22,7 @@ const upButVieW = evt => {
       elementsSet.case.style.border = 'none';
       break;
     case 'click':
+      elementsSet.case.style.border = 'none';
       window.scrollTo(0, 0);
       break;
     default:
