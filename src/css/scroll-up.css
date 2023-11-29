@@ -67,11 +67,11 @@
 
 @media screen and (max-width: 767px) {
   .buttonup-case {
-    width: 52px;
-    height: 52px;
+    width: 50px;
+    height: 50px;
   }
 
-  .buttonup.anima-up {
+  .buttonup {
     width: 42;
     height: 42;
   }

@@ -70,5 +70,8 @@ function amountChange(id) {
     case 9:
       amount.textContent = '4000';
       break;
+    default:
+      amount.textContent = '0';
+      break;
   }
 }
