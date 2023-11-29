@@ -77,13 +77,13 @@
     height: 42;
   }
 }
-.anima-up {
+/* .anima-up {
   animation-name: animaUp;
   animation-duration: 400ms;
   animation-iteration-count: 2;
-}
+} */
 
-@keyframes animaUp {
+/* @keyframes animaUp {
   50% {
     padding-bottom: 0;
   }
@@ -91,4 +91,4 @@
     padding-top: 0;
     padding-bottom: 5px;
   }
-}
+} */
