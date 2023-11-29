@@ -14,25 +14,14 @@ const upButVieW = evt => {
         elementsSet.upButton.classList.remove('anima-up');
       }
       break;
-
-    case 'mouseover':
-      elementsSet.case.style.border = '2px solid var(--color-gray-60)';
-      break;
-    case 'mouseout':
-      elementsSet.case.style.border = 'none';
-      break;
     case 'click':
-      elementsSet.case.style.border = 'none';
       window.scrollTo(0, 0);
       break;
     default:
       elementsSet.upButton.style.visibility = 'hidden';
-      elementsSet.case.style.border = 'none';
       break;
   }
 };
 
 document.addEventListener('scroll', upButVieW);
-elementsSet.case.addEventListener('mouseover', upButVieW);
-elementsSet.case.addEventListener('mouseout', upButVieW);
 elementsSet.upButton.addEventListener('click', upButVieW);

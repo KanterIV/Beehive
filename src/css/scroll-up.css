@@ -5,8 +5,8 @@
   right: 30px;
 
   display: flex;
-  width: 64px;
-  height: 64px;
+  width: 60px;
+  height: 60px;
   justify-content: center;
   align-items: center;
 
@@ -16,16 +16,6 @@
   border-radius: 50%;
 
   visibility: hidden;
-}
-
-@keyframes animaUp {
-  50% {
-    padding-bottom: 0;
-  }
-  100% {
-    padding-top: 0;
-    padding-bottom: 5px;
-  }
 }
 
 .buttonup {
@@ -43,10 +33,27 @@
   padding: 5px;
 }
 
-.anima-up {
-  animation-name: animaUp;
-  animation-duration: 400ms;
-  animation-iteration-count: 2;
+.buttonup:hover,
+.buttonup:focus,
+.buttonup:active {
+  background-position: right center;
+  background-size: 200% auto;
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse512 1.5s infinite;
+}
+
+@keyframes pulse512 {
+  0% {
+    box-shadow: 0 0 0 0 #0075ff;
+  }
+
+  70% {
+    box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+  }
 }
 
 .up-icon {
@@ -69,5 +76,20 @@
   .buttonup.anima-up {
     width: 42;
     height: 42;
+  }
+}
+.anima-up {
+  animation-name: animaUp;
+  animation-duration: 400ms;
+  animation-iteration-count: 2;
+}
+
+@keyframes animaUp {
+  50% {
+    padding-bottom: 0;
+  }
+  100% {
+    padding-top: 0;
+    padding-bottom: 5px;
   }
 }
