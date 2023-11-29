@@ -76,18 +76,3 @@
     height: 42;
   }
 }
-.anima-up {
-  animation-name: animaUp;
-  animation-duration: 400ms;
-  animation-iteration-count: 2;
-}
-
-@keyframes animaUp {
-  50% {
-    padding-bottom: 0;
-  }
-  100% {
-    padding-top: 0;
-    padding-bottom: 5px;
-  }
-}

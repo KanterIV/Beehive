@@ -8,10 +8,8 @@ const upButVieW = evt => {
     case 'scroll':
       if (Math.floor(window.scrollY) >= window.innerHeight / 2) {
         elementsSet.case.style.visibility = 'visible';
-        elementsSet.upButton.classList.add('anima-up');
       } else {
         elementsSet.case.style.visibility = 'hidden';
-        elementsSet.upButton.classList.remove('anima-up');
       }
       break;
     case 'mouseover':
@@ -21,8 +19,8 @@ const upButVieW = evt => {
       elementsSet.upButton.classList.remove('buttonup-hover');
       break;
     case 'click':
-      elementsSet.upButton.classList.remove('buttonup-hover');
       window.scrollTo(0, 0);
+      elementsSet.upButton.classList.remove('buttonup-hover');
       break;
     default:
       elementsSet.upButton.style.visibility = 'hidden';
