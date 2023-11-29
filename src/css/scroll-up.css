@@ -33,8 +33,7 @@
   padding: 5px;
 }
 
-.buttonup:hover,
-.buttonup:focus {
+.buttonup-hover {
   background-position: right center;
   background-size: 200% auto;
   -webkit-animation: pulse 2s infinite;
