@@ -21,6 +21,7 @@ const upButVieW = evt => {
       elementsSet.upButton.classList.remove('buttonup-hover');
       break;
     case 'click':
+      elementsSet.upButton.classList.remove('buttonup-hover');
       window.scrollTo(0, 0);
       break;
     default:
