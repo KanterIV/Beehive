@@ -141,3 +141,11 @@
 .definiteness-chexbox-btn:focus {
   color: var(--color-brand-blue);
 }
+
+.def-chexbox-bgcolor {
+  background-color: var(--color-brand-blue);
+}
+
+.def-chexbox-btn-color {
+  color: var(--color-brand-blue);
+}
