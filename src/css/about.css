@@ -1,5 +1,6 @@
 .about-section {
   padding-top: 80px;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {
