@@ -9,7 +9,6 @@ gygabyteColorChange(gigabyteId);
 
 function onGigabyteСlick(event) {
   gigabyteId = Number(event.currentTarget.id);
-  console.log(gigabyteId);
   gygabyteColorChange(gigabyteId);
   amountChange(gigabyteId);
 }
@@ -17,8 +16,8 @@ function onGigabyteСlick(event) {
 function gygabyteColorChange(lastElementNum) {
   colorChecker(defListItemsArr);
   for (let i = 0; i <= lastElementNum; i += 1) {
-    const arr1 = [...defListItemsArr[i].children];
-    arr1.map(item => {
+    const itemsChildren = [...defListItemsArr[i].children];
+    itemsChildren.map(item => {
       if (item.className === 'definiteness-chexbox') {
         item.classList.add('def-chexbox-bgcolor');
         return;
